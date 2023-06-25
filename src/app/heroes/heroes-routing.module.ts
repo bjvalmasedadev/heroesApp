@@ -25,12 +25,12 @@ const routes: Routes = [
         component: NewPageComponent,
       },
       {
-        path: ':id',
-        component: HeroPageComponent,
+        path: 'list',
+        component: ListPageComponent,
       },
       {
-        path: '',
-        component: ListPageComponent,
+        path: ':id',
+        component: HeroPageComponent,
       },
     ],
   },
