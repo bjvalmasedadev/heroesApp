@@ -32,6 +32,10 @@ const routes: Routes = [
         path: ':id',
         component: HeroPageComponent,
       },
+      {
+        path: '**',
+        redirectTo: 'list',
+      },
     ],
   },
 ];
